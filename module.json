@@ -1,22 +1,76 @@
 {
-  "id": "module",
-  "title": "New Module",
-  "description": "",
-  "version": "#{VERSION}#",
-  "library": "false",
-  "manifestPlusVersion": "1.2.0",
+  "id": "obis-dragonbane-homebrew",
+  "title": "Obi's Dragonbane Homebrew",
+  "version": "1.0.0",
   "compatibility": {
-    "minimum": 10,
-    "verified": 10,
-    "maximum": 11
+    "minimum": "11",
+    "verified": "11"
   },
-  "authors": [
+  "packs": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "name": "actors",
+      "label": "Actors",
+      "path": "packs/actors",
+      "type": "Actor",
+      "system": "dragonbane",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cards",
+      "label": "Cards",
+      "path": "packs/cards",
+      "type": "Cards",
+      "system": "dragonbane",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "items",
+      "label": "Items",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "dragonbane",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "journals",
+      "label": "Journals",
+      "path": "packs/journals",
+      "type": "JournalEntry",
+      "system": "dragonbane",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "rollable-tables",
+      "label": "Rollable Tables",
+      "path": "packs/rollable-tables",
+      "type": "RollTable",
+      "system": "dragonbane",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
+  "authors": [
+    {
+      "name": "ObiWanCanOweMe",
+      "email": "andrew@kener.org",
+      "discord": "obiwancanoweme"
+    }
+  ],
+  "description": "A collection of homebrew for the Dragonbane RPG published by Free League. Includes new professions, monsters, tables, rules, etc.",
   "relationships": {
     "systems": [],
     "requires": []
