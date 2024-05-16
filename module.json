@@ -1,7 +1,9 @@
 {
   "id": "obis-dragonbane-homebrew",
   "title": "Obi's Dragonbane Homebrew",
-  "version": "1.0.0",
+  "version": "#{VERSION}#",
+  "library": "false",
+  "manifestPlusVersion": "1.2.0",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
