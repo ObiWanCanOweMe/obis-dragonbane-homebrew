@@ -1,9 +1,7 @@
 {
   "id": "obis-dragonbane-homebrew",
   "title": "Obi's Dragonbane Homebrew",
-  "version": "#{VERSION}#",
-  "library": "false",
-  "manifestPlusVersion": "1.2.0",
+  "version": "1.0.1",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -72,36 +70,5 @@
       "discord": "obiwancanoweme"
     }
   ],
-  "description": "A collection of homebrew for the Dragonbane RPG published by Free League. Includes new professions, monsters, tables, rules, etc.",
-  "relationships": {
-    "systems": [],
-    "requires": []
-  },
-  "esmodules": [
-    "scripts/module.js"
-  ],
-  "scripts": [
-    "scripts/lib/lib.js"
-  ],
-  "styles": [
-    "styles/module.css"
-  ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "languages/en.json"
-    }
-  ],
-  "url": "#{URL}#",
-  "manifest": "#{MANIFEST}#",
-  "download": "#{DOWNLOAD}#",
-  "license": "LICENSE",
-  "readme": "README.md",
-  "media": [
-    {
-      "type": "icon",
-      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
-    }
-  ]
+  "description": "A collection of homebrew for the Dragonbane RPG published by Free League. Includes new professions, monsters, tables, rules, etc."
 }

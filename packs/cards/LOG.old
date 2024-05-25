@@ -1,8 +1,15 @@
-2024/05/15-16:48:14.573 b66c Recovering log #12
-2024/05/15-16:48:14.585 b66c Delete type=0 #12
-2024/05/15-16:48:14.585 b66c Delete type=3 #10
-2024/05/15-22:08:46.696 aa34 Level-0 table #17: started
-2024/05/15-22:08:46.696 aa34 Level-0 table #17: 0 bytes OK
-2024/05/15-22:08:46.702 aa34 Delete type=0 #15
-2024/05/15-22:08:46.729 aa34 Manual compaction at level-0 from '!cards!qfU2BjPUUjNQvzaG' @ 72057594037927935 : 1 .. '!cards.cards!qfU2BjPUUjNQvzaG.zT5aDEfZXuUymIq9' @ 0 : 0; will stop at (end)
-2024/05/15-22:08:46.729 aa34 Manual compaction at level-1 from '!cards!qfU2BjPUUjNQvzaG' @ 72057594037927935 : 1 .. '!cards.cards!qfU2BjPUUjNQvzaG.zT5aDEfZXuUymIq9' @ 0 : 0; will stop at (end)
+2024/05/25-14:11:05.155146 ffff9395ba30 Recovering log #28
+2024/05/25-14:11:05.156461 ffff9395ba30 Delete type=0 #28
+2024/05/25-14:11:05.156591 ffff9395ba30 Delete type=3 #26
+2024/05/25-14:30:21.290727 fffd90ed9a30 Level-0 table #33: started
+2024/05/25-14:30:21.292600 fffd90ed9a30 Level-0 table #33: 13924 bytes OK
+2024/05/25-14:30:21.293140 fffd90ed9a30 Delete type=0 #31
+2024/05/25-14:30:21.297323 fffd90ed9a30 Manual compaction at level-0 from '!cards!qfU2BjPUUjNQvzaG' @ 72057594037927935 : 1 .. '!cards.cards!qfU2BjPUUjNQvzaG.zT5aDEfZXuUymIq9' @ 0 : 0; will stop at (end)
+2024/05/25-14:30:21.302311 fffd90ed9a30 Manual compaction at level-1 from '!cards!qfU2BjPUUjNQvzaG' @ 72057594037927935 : 1 .. '!cards.cards!qfU2BjPUUjNQvzaG.zT5aDEfZXuUymIq9' @ 0 : 0; will stop at '!cards.cards!qfU2BjPUUjNQvzaG.zT5aDEfZXuUymIq9' @ 284 : 1
+2024/05/25-14:30:21.302373 fffd90ed9a30 Compacting 1@1 + 1@2 files
+2024/05/25-14:30:21.304435 fffd90ed9a30 Generated table #34@1: 55 keys, 13924 bytes
+2024/05/25-14:30:21.304498 fffd90ed9a30 Compacted 1@1 + 1@2 files => 13924 bytes
+2024/05/25-14:30:21.304785 fffd90ed9a30 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/05/25-14:30:21.305040 fffd90ed9a30 Delete type=2 #5
+2024/05/25-14:30:21.305179 fffd90ed9a30 Delete type=2 #33
+2024/05/25-14:30:21.310312 fffd90ed9a30 Manual compaction at level-1 from '!cards.cards!qfU2BjPUUjNQvzaG.zT5aDEfZXuUymIq9' @ 284 : 1 .. '!cards.cards!qfU2BjPUUjNQvzaG.zT5aDEfZXuUymIq9' @ 0 : 0; will stop at (end)
